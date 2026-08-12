@@ -1,0 +1,4 @@
+# 轻量化YOLOv11图片检测Demo - 依赖列表
+ultralytics>=8.3.0
+PyYAML>=6.0
+Pillow>=10.0.0
