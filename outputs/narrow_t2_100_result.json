@@ -1,0 +1,60 @@
+{
+  "image": "narrow_t2_100.jpg",
+  "total_detections": 4,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.8605,
+      "bbox": [
+        716.55,
+        62.2,
+        846.56,
+        118.38
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.8518,
+      "bbox": [
+        969.68,
+        59.47,
+        1102.21,
+        108.62
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.8464,
+      "bbox": [
+        1262.96,
+        302.36,
+        1313.94,
+        437.79
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.6288,
+      "bbox": [
+        82.96,
+        98.93,
+        196.87,
+        147.21
+      ],
+      "is_danger": false
+    }
+  ],
+  "danger_count": 0
+}

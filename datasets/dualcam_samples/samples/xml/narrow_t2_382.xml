@@ -1,0 +1,39 @@
+<annotation>
+  <folder>27-02-2022</folder>
+  <filename>narrow_t2_382.jpg</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+    <depth />
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Red</name>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>657.79</xmin>
+      <ymin>215.77</ymin>
+      <xmax>730.71</xmax>
+      <ymax>378.66</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Green</name>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>600.19</xmin>
+      <ymin>366.86</ymin>
+      <xmax>613.2</xmax>
+      <ymax>402.0</ymax>
+    </bndbox>
+  </object>
+</annotation>

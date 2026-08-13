@@ -1,0 +1,21 @@
+{
+  "image": "narrow_t2_382.jpg",
+  "total_detections": 1,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "red",
+      "state_cn": "红灯",
+      "confidence": 0.857,
+      "bbox": [
+        667.4,
+        219.82,
+        724.06,
+        369.61
+      ],
+      "is_danger": true
+    }
+  ],
+  "danger_count": 1
+}

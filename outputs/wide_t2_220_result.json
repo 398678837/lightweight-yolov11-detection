@@ -1,0 +1,47 @@
+{
+  "image": "wide_t2_220.jpg",
+  "total_detections": 3,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.7181,
+      "bbox": [
+        820.32,
+        453.41,
+        839.06,
+        496.18
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.6157,
+      "bbox": [
+        972.16,
+        425.39,
+        988.68,
+        486.42
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 1,
+      "class_name": "red",
+      "state_cn": "红灯",
+      "confidence": 0.3635,
+      "bbox": [
+        1042.31,
+        444.2,
+        1061.91,
+        492.8
+      ],
+      "is_danger": true
+    }
+  ],
+  "danger_count": 1
+}

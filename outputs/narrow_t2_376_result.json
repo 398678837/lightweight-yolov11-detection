@@ -1,0 +1,60 @@
+{
+  "image": "narrow_t2_376.jpg",
+  "total_detections": 4,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.7876,
+      "bbox": [
+        1137.68,
+        149.11,
+        1170.21,
+        232.87
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 1,
+      "class_name": "red",
+      "state_cn": "红灯",
+      "confidence": 0.6459,
+      "bbox": [
+        816.18,
+        138.89,
+        844.48,
+        219.6
+      ],
+      "is_danger": true
+    },
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.4432,
+      "bbox": [
+        977.36,
+        144.92,
+        1012.37,
+        229.0
+      ],
+      "is_danger": false
+    },
+    {
+      "class_id": 1,
+      "class_name": "red",
+      "state_cn": "红灯",
+      "confidence": 0.2806,
+      "bbox": [
+        976.64,
+        141.74,
+        1013.15,
+        227.25
+      ],
+      "is_danger": true
+    }
+  ],
+  "danger_count": 2
+}

@@ -1,4 +1,8 @@
-# 轻量化YOLOv11图片检测Demo - 依赖列表
+# 轻量化YOLOv11红绿灯识别Demo - 依赖列表
 ultralytics>=8.3.0
 PyYAML>=6.0
 Pillow>=10.0.0
+opencv-python>=4.7.0,<5
+# 版本约束：兼容旧版 torch（2.0.x），避免 numpy 2.x 不兼容问题
+numpy<2
+matplotlib>=3.8

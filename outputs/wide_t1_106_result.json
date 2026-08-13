@@ -1,0 +1,21 @@
+{
+  "image": "wide_t1_106.jpg",
+  "total_detections": 1,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "red",
+      "state_cn": "红灯",
+      "confidence": 0.3684,
+      "bbox": [
+        1221.32,
+        365.17,
+        1233.37,
+        404.39
+      ],
+      "is_danger": true
+    }
+  ],
+  "danger_count": 1
+}

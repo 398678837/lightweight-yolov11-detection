@@ -1,0 +1,11 @@
+# Traffic Light Detection Dataset (DualCam Samples)
+# Converted from DualCam dataset to 3-class YOLO format
+path: /Users/caoyang/Projects/lightweight-yolov11-detection/lightweight-yolov11-detection/datasets/traffic_light_yolo
+train: train/images
+val: val/images
+
+nc: 3
+names:
+  0: green
+  1: red
+  2: yellow

@@ -1,0 +1,21 @@
+{
+  "image": "wide_t2_146.jpg",
+  "total_detections": 1,
+  "is_traffic_light": true,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "green",
+      "state_cn": "绿灯",
+      "confidence": 0.617,
+      "bbox": [
+        887.8,
+        257.8,
+        982.51,
+        289.16
+      ],
+      "is_danger": false
+    }
+  ],
+  "danger_count": 0
+}

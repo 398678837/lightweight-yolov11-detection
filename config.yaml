@@ -1,15 +1,14 @@
 # ============================================
-# 轻量化YOLOv11图片检测Demo - 配置文件
+# 轻量化YOLOv11红绿灯识别Demo - 配置文件
 # ============================================
 
 # 模型配置
 model:
-  # 预训练模型名称（首次运行自动下载）
-  # 可选: yolov11n / yolov11s / yolov11m / yolov11l / yolov11x
-  # 说明: n=最轻量, s=轻量, m=中等, l=大, x=最大
-  name: "yolov11n"
-  # 或使用自定义模型路径，如 "weights/best.pt"（留空则用name）
-  path: ""
+  # 模型路径（优先使用自定义训练权重）
+  path: "weights/traffic_light_best.pt"
+  # 预训练模型名称（当path为空时使用）
+  # 可选: yolo11n / yolo11s / yolo11m / yolo11l / yolo11x
+  name: "yolo11n"
 
 # 推理配置
 inference:
@@ -25,6 +24,25 @@ inference:
   save_visualization: true
   # 是否保存检测结果JSON
   save_json: true
+
+# 红绿灯检测专有配置
+traffic_light:
+  # 启用红绿灯状态识别（自动根据模型类型启用）
+  enabled: true
+  # 红绿灯状态映射（模型输出的类别ID -> 中文状态）
+  class_map:
+    0: "绿灯"
+    1: "红灯"
+    2: "黄灯"
+  # 各状态对应颜色（用于可视化标注）
+  colors:
+    green: [0, 255, 0]      # 绿灯 - 绿色
+    red: [0, 0, 255]        # 红灯 - 红色
+    yellow: [0, 255, 255]   # 黄灯 - 黄色
+  # 危险状态（触发警告）
+  danger_states:
+    - "红灯"
+    - "黄灯"
 
 # 路径配置
 paths:
